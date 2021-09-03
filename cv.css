@@ -1,0 +1,25 @@
+.boxed {
+  border: 5px solid rgb(33, 6, 133);
+  font-size: 20pt;
+  height: 350px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgb(226, 204, 228);
+}
+.text {
+  font-size: 25px;
+  position: fixed;
+  left: 710px;
+  right: 100px;
+  top: 300px;
+}
+.img {
+  position: relative;
+  left: 100px;
+  top: 2px;
+  border: 3px solid rgb(33, 6, 133);
+  border-radius: 3px;
+  padding: 7px;
+  width: 200px;
+  height: 300px;
+}
