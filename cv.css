@@ -1,25 +1,47 @@
-.boxed {
-  border: 5px solid rgb(33, 6, 133);
-  font-size: 20pt;
-  height: 350px;
-  width: 700px;
-  margin: 0 auto;
-  background-color: rgb(226, 204, 228);
+.all {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.text {
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .aside {
+  width: 30%;
+  background-color: #09095e;
+  color: #fff;
+}
+.container .aside img {
+  display: block;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.container .aside .contacts {
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.container.main {
   font-size: 25px;
   position: fixed;
   left: 710px;
   right: 100px;
   top: 300px;
 }
-.img {
-  position: relative;
-  left: 100px;
-  top: 2px;
-  border: 3px solid rgb(33, 6, 133);
-  border-radius: 3px;
-  padding: 7px;
-  width: 200px;
-  height: 300px;
+.main {
+  width: 70%;
+  color: #2d2d2d;
+  padding-top: 70px;
+  background-color: #fff;
+}
+.main .header {
+  width: 100%;
+  height: 200px;
+  background-color: #fecb00;
+  padding: 65px 50px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
 }

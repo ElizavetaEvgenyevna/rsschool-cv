@@ -6,6 +6,8 @@
 
 **Experience:** I have no experience but I am eager to learn.
 
+**Experience:** I have no experience but I am eager to learn.
+
 **Skills:** Basic JavaScript knowledge, basic SQL.
 
 **Education:** CodeBasics course, Stepik. Starting to study on a business-informatics faculty in Voronezh State University.
