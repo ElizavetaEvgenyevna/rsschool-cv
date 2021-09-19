@@ -7,7 +7,7 @@
 }
 .container {
   width: 1000px;
-  height: 100%;
+  min-height: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,6 +94,12 @@
 }
 .footer_rsschool {
   width: 200px;
+}
+.code_example {
+  color: white;
+}
+.code_example2 {
+  background-color: black;
 }
 /* .footer_links {
   margin-top: 20px;
