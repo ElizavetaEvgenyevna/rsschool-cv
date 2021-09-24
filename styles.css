@@ -718,7 +718,6 @@ main {
 
   color: #ffffff;
 }
-
 .explore-img1 {
   position: absolute;
   width: 440px;
@@ -1353,10 +1352,630 @@ main {
   background-size: contain;
   border-radius: 0px;
 }
+.ticket-rectangle1 {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  right: 0px;
+  top: 292px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+.ticket-rectangle2 {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  right: 0px;
+  top: 393px;
+
+  border: 3px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+.ticket-rectangle1-num1 {
+  position: absolute;
+  width: 12px;
+  height: 26px;
+  left: 1359px;
+  top: 304px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.ticket-rectangle2-num1 {
+  position: absolute;
+  width: 12px;
+  height: 26px;
+  left: 1359px;
+  top: 405px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.ticket-rectangle1-plus {
+  position: absolute;
+  width: 19px;
+  height: 38px;
+  left: 1407px;
+  top: 298px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.ticket-rectangle2-plus {
+  position: absolute;
+  width: 19px;
+  height: 38px;
+  left: 1407px;
+  top: 399px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.ticket-rectangle1-minus {
+  position: absolute;
+  width: 18px;
+  height: 38px;
+  left: 1304px;
+  top: 298px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.ticket-rectangle2-minus {
+  position: absolute;
+  width: 18px;
+  height: 38px;
+  left: 1304px;
+  top: 399px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+.parallax {
+  position: absolute;
+  width: 1920px;
+  height: 400px;
+  left: -277px;
+  right: -277px;
+  top: 7450px;
+
+  background: url(assets/img/parallax.png);
+  background-size: contain;
+  border-radius: 0px;
+}
 #contacts {
   position: absolute;
   width: 1440px;
   height: 813px;
   left: 0px;
   top: 7905px;
+}
+.contacts-title {
+  position: absolute;
+  width: 397px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 90px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #9d8665;
+}
+.contacts-rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 3px;
+  left: 0px;
+  top: 115px;
+
+  background: #710707;
+  border-radius: 0px;
+}
+.contacts-p-title {
+  position: absolute;
+  width: 227px;
+  height: 66px;
+  left: 0px;
+  top: 193px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #000000;
+}
+.contacts-p-adress {
+  position: absolute;
+  width: 282px;
+  height: 26px;
+  left: 0px;
+  top: 309px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.contacts-p-phone {
+  position: absolute;
+  width: 271px;
+  height: 26px;
+  left: 0px;
+  top: 360px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+.contacts-p-mail {
+  position: absolute;
+  width: 193.98px;
+  height: 26px;
+  left: 0px;
+  top: 411px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.contacts-map {
+  position: absolute;
+  width: 960px;
+  height: 620px;
+  right: 0px;
+  bottom: 0px;
+
+  background: url(assets/img/contacts-map.png);
+  background-size: contain;
+  border-radius: 0px;
+}
+.footer {
+  width: 1920px;
+  height: 392px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  top: 8942px;
+
+  background-color: black;
+}
+.footer-box {
+  position: absolute;
+  width: 1440px;
+  height: 392px;
+  left: 240px;
+  right: 240px;
+  top: 8942px;
+}
+.footer-bg {
+  position: absolute;
+  width: 1920px;
+  height: 392px;
+  left: 0px;
+  top: 8942px;
+  z-index: -1;
+
+  background: #030303;
+  border-radius: 0px;
+}
+.footer-rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 3px;
+  left: 0px;
+  top: 9207px;
+
+  background: #666666;
+}
+#footer-logo {
+  position: absolute;
+  top: 9017px;
+  left: 240px;
+}
+#footer-logo_text {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  left: 75px;
+  top: 0px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.footer-logo_icon {
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  width: 50px;
+  height: 34px;
+  background: #ffffff;
+  background-size: contain;
+  background-image: url('assets/svg/logo.svg');
+}
+#footer-navigation {
+  position: absolute;
+  width: 363px;
+  height: 128px;
+  left: 580px;
+  top: 9029px;
+}
+.footer-nv-visiting {
+  position: absolute;
+  width: 107px;
+  height: 26px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.footer-nv-explore {
+  position: absolute;
+  width: 88px;
+  height: 26px;
+  left: 0px;
+  top: 51px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.footer-nv-video {
+  position: absolute;
+  width: 87px;
+  height: 26px;
+  left: 0px;
+  bottom: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.footer-nv-gallery {
+  position: absolute;
+  width: 80px;
+  height: 26px;
+  left: 257px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.footer-nv-tickets {
+  position: absolute;
+  width: 85px;
+  height: 26px;
+  left: 257px;
+  top: 51px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.footer-nv-contacts {
+  position: absolute;
+  width: 106px;
+  height: 26px;
+  right: 0px;
+  bottom: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+.footer-social {
+  position: absolute;
+  width: 340px;
+  height: 48px;
+  left: 1100px;
+  top: 162px;
+}
+
+.footer-social-youtube {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #666666);
+  border-radius: 50px;
+}
+.footer-social-insta {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 73px;
+  top: 0px;
+
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #666666);
+  border-radius: 50px;
+}
+.footer-social-facebook {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 146px;
+  top: 0px;
+
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #666666);
+  border-radius: 50px;
+}
+.footer-social-twitter {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 219px;
+  top: 0px;
+
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #666666);
+  border-radius: 50px;
+}
+.footer-social-pinterest {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 292px;
+  top: 0px;
+
+  border: 1px solid #666666;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 0px #666666);
+  border-radius: 50px;
+}
+#footer-social-youtube-logo {
+  position: absolute;
+  left: 4.17%;
+  right: 1.21%;
+  top: 16.67%;
+  bottom: 16.67%;
+
+  background: #ffffff;
+  background-image: url(assets/svg/youtube.svg);
+  background-size: contain;
+}
+#footer-social-insta-logo {
+  position: absolute;
+  left: 8.33%;
+  right: 8.37%;
+  top: 8.33%;
+  bottom: 8.38%;
+
+  background: #ffffff;
+  background-image: url(assets/svg/insta.svg);
+  background-size: contain;
+}
+#footer-social-facebook-logo {
+  position: absolute;
+  left: 25%;
+  right: 22.92%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+  background: #ffffff;
+  background-image: url(assets/svg/facebook.svg);
+  background-size: contain;
+}
+#footer-social-twitter-logo {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 16.67%;
+  bottom: 15.62%;
+
+  background: #ffffff;
+  background-image: url(assets/svg/twitter.svg);
+  background-size: contain;
+}
+#footer-social-pinterest-logo {
+  position: absolute;
+  left: 8.48%;
+  right: 8.48%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+  background: #ffffff;
+  background-image: url(assets/svg/pinterest.svg);
+  background-size: contain;
+}
+#footer-last-string {
+  position: absolute;
+  width: 1440px;
+  height: 24px;
+  left: 240px;
+  top: 9260px;
+}
+#footer-last-string-rsschool {
+  position: absolute;
+  width: 300px;
+  height: 22px;
+  left: 570px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 22px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+#footer-last-string-year {
+  position: absolute;
+  width: 82px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 22px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+#footer-last-string-username {
+  position: absolute;
+  width: 113px;
+  height: 22px;
+  left: 1327px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 22px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 2px;
+
+  color: #ffffff;
 }
