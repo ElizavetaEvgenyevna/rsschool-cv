@@ -1,0 +1,67 @@
+main {
+  position: absolute;
+  width: 1440px;
+  height: 845px;
+  left: 1px;
+  top: -1px;
+}
+#group74-logo {
+  position: absolute;
+  left: 235px;
+  top: 91px;
+  width: 85px;
+  height: 41px;
+
+  background: #9d8665;
+  background-size: contain;
+  background-image: url(assets/svg/booking-tickets-logo.svg);
+}
+#group74-actual-title {
+  position: absolute;
+  left: 235px;
+  top: 132px;
+  width: 386px;
+  height: 53px;
+
+  font-family: Forum;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  text-transform: uppercase;
+
+  color: #9d8665;
+}
+#group74-tour-to-louvre {
+  position: absolute;
+  width: 116px;
+  height: 21px;
+  left: 235px;
+  top: 200px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #710707;
+}
+#group74-line {
+  position: absolute;
+  width: 400px;
+  height: 3px;
+  left: 235px;
+  top: 231px;
+
+  background: #740c11;
+  opacity: 0.9;
+}
+.payment {
+  position: absolute;
+  width: 530px;
+  height: 663px;
+  left: 675px;
+  top: 91px;
+}
