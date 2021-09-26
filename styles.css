@@ -488,11 +488,11 @@ main {
   color: #000000;
 }
 
-#text-top {
+.text-top {
   top: 367px;
 }
 
-#text-bot {
+.text-bot {
   top: 403px;
 }
 
