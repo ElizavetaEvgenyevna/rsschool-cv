@@ -6,7 +6,7 @@
   --font2: 32px;
 }
 .section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -335,6 +335,9 @@ li {
 }
 h2 {
   margin-top: 25px;
+}
+h3 {
+  margin-top: 10px;
 }
 #nv_visiting {
   position: absolute;
@@ -1211,7 +1214,26 @@ main {
   border-radius: 0px;
   background-size: contain;
 }
+.ticket-radio-container {
+  position: absolute;
+  width: 270px;
+  height: 211px;
+  left: 780px;
+  top: 193px;
+}
+
 .ticket-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+/* .ticket-type {
   position: absolute;
   width: 156px;
   height: 33px;
@@ -1223,7 +1245,6 @@ main {
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
-  /* identical to box height */
 
   color: #000000;
 }
@@ -1233,15 +1254,6 @@ main {
   height: 26px;
   left: 820px;
   top: 276px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 26px;
-  /* identical to box height */
-
-  color: #000000;
 }
 .ticket-type2 {
   position: absolute;
@@ -1255,7 +1267,6 @@ main {
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
-  /* identical to box height */
 
   color: #000000;
 }
@@ -1271,10 +1282,10 @@ main {
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
-  /* identical to box height */
 
-  color: #000000;
+  color: #000000; */
 }
+
 .amount {
   position: absolute;
   width: 100px;
@@ -1287,7 +1298,6 @@ main {
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
-  /* identical to box height */
 
   color: #000000;
 }

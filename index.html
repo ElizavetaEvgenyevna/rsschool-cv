@@ -16,7 +16,7 @@
                     >Louvre</h1>
                     <a href="/assets/svg/logo.svg" class="logo_icon"></a>
                 </div>
-                <div id="navigation">
+                <nav id="navigation">
                     <nav>
                         <ul class="ul">
                             <li class="nv_text_format" id="nv_visiting">Visiting</li>
@@ -27,7 +27,7 @@
                             <li class="nv_text_format" id="nv_contacts">Contacts</li>
                         </ul>
                     </nav>
-                </div>
+                </nav>
                 <div id="bg"></div>
             </div>
         </header>
@@ -37,8 +37,8 @@
                 <div class="container monalisa_container">
                     <img id="monalisa_img" src="assets/img/monalisa.png" alt="monalisa_img">
                     <div class="welcome_pagination_container" id="slider_pagination">
-                        <a href="/assets/svg/left_arrow.svg" class="left_arrow"></a>
-                        <a href="/assets/svg/right_arrow(1).svg" class="right_arrow"></a>
+                        <button class="left_arrow"><a href="/assets/svg/left_arrow.svg" ></a></button>
+                        <button class="right_arrow"><a href="/assets/svg/right_arrow(1).svg" ></a></button>
                         <a href="/assets/svg/white_slider.svg" class="white_slider"></a>
                         <a href="/assets/svg/white_slider.svg" class="white_slider2"></a>
                         <a href="/assets/svg/white_slider.svg" class="white_slider3"></a>
@@ -61,42 +61,42 @@
                 <div class="visiting-rectangle"></div>
                 <div class="virtual-royal">
                     <div class="royal-img"></div>
-                    <div class="virtual-subtitle">ROYAL PALACE</div>
+                    <h3 class="virtual-subtitle">ROYAL PALACE</h3>
                     <div class="virtual-subrectangle"></div>
                     <div class="virtual-plain-text text-top">360° Virtual Tour</div>
                     <div class="virtual-plain-text text-bot">Google Street Panorama View</div>
                 </div>
                 <div class="virtual-denon">
                     <div class="denon-img"></div>
-                    <div class="virtual-subtitle">DENON WING</div>
+                    <h3 class="virtual-subtitle">DENON WING</h3>
                     <div class="virtual-subrectangle"></div>
                     <div class="virtual-plain-text text-top">360° Virtual Tour</div>
                     <div class="virtual-plain-text text-bot">Google Street Panorama View</div>
                 </div>
                 <div class="virtual-colonnade">
                     <div class="colonnade-img"></div>
-                    <div class="virtual-subtitle">COLONNADE PERRAULT</div>
+                    <h3 class="virtual-subtitle">COLONNADE PERRAULT</h3>
                     <div class="virtual-subrectangle"></div>
                     <div class="virtual-plain-text text-top">360° Virtual Tour</div>
                     <div class="virtual-plain-text text-bot">Google Street Panorama View</div>
                 </div>
                 <div class="virtual-greek">
                     <div class="greek-img"></div>
-                    <div class="virtual-subtitle">GREEK HALL</div>
+                    <h3 class="virtual-subtitle">GREEK HALL</h3>
                     <div class="virtual-subrectangle"></div>
                     <div class="virtual-plain-text text-top">360° Virtual Tour</div>
                     <div class="virtual-plain-text text-bot">Google Street Panorama View</div>
                 </div>
                 <div class="virtual-mona">
                     <div class="mona-img"></div>
-                    <div class="virtual-subtitle">MONA LISA</div>
+                    <h3 class="virtual-subtitle">MONA LISA</h3>
                     <div class="virtual-subrectangle"></div>
                     <div class="virtual-plain-text text-top">360° Virtual Tour</div>
                     <div class="virtual-plain-text text-bot">Google Street Panorama View</div>
                 </div>
                 <div class="virtual-night">
                     <div class="night-img"></div>
-                    <div class="virtual-subtitle">NIGHT PALACE</div>
+                    <h3 class="virtual-subtitle">NIGHT PALACE</h3>
                     <div class="virtual-subrectangle"></div>
                     <div class="virtual-plain-text text-top">360° Virtual Tour</div>
                     <div class="virtual-plain-text text-bot">Google Street Panorama View</div>
@@ -122,27 +122,27 @@
                 <div class="journey-text"> Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code </div>
                 <div class="journey-video-img"></div>
                 <div class="journey-player"></div>
-                <div class="journey-player-video">
+                <button class="journey-player-video">
                     <a href="assets/svg/journey-player-video.svg"></a>
-                </div>
+                </button>
                 <div class="journey-youtube-video1"></div>
                 <div class="journey-youtube-video2"></div>
                 <div class="journey-youtube-video3"></div>
-                <div class="journey-youtube-player1">
+                <button class="journey-youtube-player1">
                     <a href="assets/svg/journey-youtube-player.svg"></a>
-                </div>
-                <div class="journey-youtube-player2">
+                </button>
+                <button class="journey-youtube-player2">
                     <a href="assets/svg/journey-youtube-player.svg"></a>
-                </div>
-                <div class="journey-youtube-player3">
+                </button>
+                <button class="journey-youtube-player3">
                     <a href="assets/svg/journey-youtube-player.svg"></a>
-                </div>
-                <div class="journey-slider-arrows1">
+                </button>
+                <button class="journey-slider-arrows1">
                     <a href="assets/svg/journey-slider-arrows.svg"></a>
-                </div>
-                <div class="journey-slider-arrows2">
+                </button>
+                <button class="journey-slider-arrows2">
                     <a href="assets/svg/journey-slider-arrows.svg"></a>
-                </div>
+                </button>
                 <div class="journey-slider-grey1">
                     <a href="assets/svg/journey-slider-grey.svg"></a>
                 </div>
@@ -160,7 +160,6 @@
                 </div>
             </section>
             <section class="section" id="gallery">
-                
                 <div class="container"></div>
                 <div class="gallery-bg"></div>
                 <h2 class="gallery-title">ART GALLERY</h2>
@@ -179,30 +178,40 @@
                 <div class='gallery-rectangle-gradient'></div>
             </section>
             <section class="section" id="tickets">
-               
                 <!-- <div class="container"></div> -->
                 <h2 class="tickets-title">BUY TICKETS</h2>
                 <div class="tickets-rectangle"></div>
                 <div class='tickets-img'></div>
-                <div class='ticket-type'>Ticket Type</div>
-                <div class="ticket-type1">Permanent exhibition</div>
-                <div class='ticket-type2'>Temporary exhibition</div>
-                <div class='ticket-type3'>Combined admission</div>
+                <div class="ticket-radio-container">
+                    <div class='ticket-type'>Ticket Type</div>
+                    <div>
+                        <input type="radio" class="ticket-type1" id='perm'>
+                        <label for="perm">Permanent exhibition</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" class='ticket-type2' id='temp'>
+                        <label for="temp">Temporary exhibition</label><br>
+                    </div>
+                    <div>
+                    <input type="radio" class='ticket-type3' id='comb'>
+                    <label for="comb">Combined admission</label><br>
+                    </div>
+                </div>
                 <div class='amount'>Amount</div>
                 <div class='basic-18'>Basic 18+</div>
                 <div class='ticket-box1'></div>
                 <div class='senior-65'>Senior 65+</div>
                 <div class='ticket-box2'></div>
                 <div class='ticket-total'>Total 220</div>
-                <div class='ticket-button-buy'></div>
+                <button class='ticket-button-buy'></button>
                 <div class='ticket-rectangle1'></div>
                 <div class='ticket-rectangle2'></div>
-                <div class='ticket-rectangle1-num1'>1</div>
-                <div class='ticket-rectangle2-num1'>1</div>
-                <div class='ticket-rectangle1-plus'>+</div>
-                <div class='ticket-rectangle2-plus'>+</div>
-                <div class='ticket-rectangle1-minus'>-</div>
-                <div class='ticket-rectangle2-minus'>-</div>
+                <input type="number" class='ticket-rectangle1-num1' id='number1'>1</input>
+                <input type="number" class='ticket-rectangle2-num1' id='number2'>1</input>
+                <button class='ticket-rectangle1-plus'>+</button>
+                <button class='ticket-rectangle2-plus'>+</button>
+                <button class='ticket-rectangle1-minus'>-</button>
+                <button class='ticket-rectangle2-minus'>-</button>
             </section>
             <div class='parallax'></div>
             <section class="section" id="contacts">
@@ -219,38 +228,43 @@
         <footer>
             <div class='footer-box'>
                 <div class='footer-social'>
-                    <div class='footer-social-youtube'>
-                        <div id='footer-social-youtube-logo'></div>
-                    </div>
-                    <div class='footer-social-insta'>
-                        <div id='footer-social-insta-logo'></div>
-                    </div>
-                    <div class='footer-social-facebook'>
-                        <div id='footer-social-facebook-logo'></div>
-                    </div>
-                    <div class='footer-social-twitter'>
-                        <div id='footer-social-twitter-logo'></div>
-                    </div>
-                    <div class='footer-social-pinterest'>
-                        <div id='footer-social-pinterest-logo'></div>
-                    </div>
+                    <ul class='ul'>
+                        <li class='footer-social-youtube'>
+                            <div id='footer-social-youtube-logo'></div>
+                        </li>
+                        <li class='footer-social-insta'>
+                            <div id='footer-social-insta-logo'></div>
+                        </li>
+                        <li class='footer-social-facebook'>
+                            <div id='footer-social-facebook-logo'></div>
+                        </li>
+                        <li class='footer-social-twitter'>
+                            <div id='footer-social-twitter-logo'></div>
+                        </li>
+                        <li class='footer-social-pinterest'>
+                            <div id='footer-social-pinterest-logo'></div>
+                        </li>
+                    </ul>
+                    
                 </div>
             </div>
             <div class='footer-bg'></div>
             <div class='footer-rectangle'></div>
             <div id='footer-logo'>
-                <h3 id="footer-logo_text"
-                    >Louvre</h3>
+                <h4 id="footer-logo_text">Louvre</h4>
                     <a href="/assets/svg/logo.svg" class="footer-logo_icon"></a>
             </div>
-            <div id='footer-navigation'>
-                <div class='footer-nv-visiting'>Visiting</div>
-                <div class='footer-nv-explore'>Explore</div>
-                <div class='footer-nv-video'>Video</div>
-                <div class='footer-nv-gallery'>Gallery</div>
-                <div class='footer-nv-tickets'>Tickets</div>
-                <div class='footer-nv-contacts'>Contacts</div>
-            </div>
+            <nav id='footer-navigation'>
+                <ul class='ul'>
+                    <li class='footer-nv-visiting'>Visiting</li>
+                    <li class='footer-nv-explore'>Explore</li>
+                    <li class='footer-nv-video'>Video</li>
+                    <li class='footer-nv-gallery'>Gallery</li>
+                    <li class='footer-nv-tickets'>Tickets</li>
+                    <li class='footer-nv-contacts'>Contacts</li>
+                </ul>
+                
+            </nav>
             <div id='footer-last-string'>
                 <div id='footer-last-string-rsschool'>The Rolling Scopes School</div>
                 <div id='footer-last-string-year'>© 2021</div>
