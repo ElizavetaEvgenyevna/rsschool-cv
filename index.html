@@ -1,31 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="cv.css">
 </head>
-<body style="background-color:rgb(187, 177, 223);">
-    <div id="block_container">
-        <div id="image" class="img" width="130px" style="display: inline-block;">
-            <img src="logo.jpg" alt="photo" width="100%" height="100%" align="left">
+<body style="background-color:rgb(8, 2, 29);">
+    <div class="container">
+        <aside class="aside">
+            <div id="image" class="img" width="130px" style="display: inline-block;">
+                <img src="logo.jpg" alt="photo" width="100%" height="100%">
+            </div>
+            <section class="contacts">
+                <h2 class="header1" align="center">Contacts</h2>
+                    &#128386;
+                    <b><a href="mailto:fomenko.elizaveta357@gmail.com">fomenko.elizaveta357@gmail.com</a> </b><br>
+                    &#9990;
+                    <b><a href="tel: 89155418921"> 89155418921</a> </b>
+            </section>
+        </aside>>
+        <main class="main" style="background-color: #09095e;">
+            <div id="header" class="header" style="display: inline-block;">
+                <big><big><b>Elizaveta Fomenko</b></big></big> <br>
+                <b>Junior Front-end developer </b> 
+            </div>
+            <div id="text">
+                <p id="cv">
+                <b class="header1">About me</b> <br>
+                <b class="maintext">I am the student of business-informatics faculty in Voronezh State University. My goal is to become junior Front-end developer. My main qualities are fast learning and enthusiasm.</b>  <br> 
+                <hr>
+                <b class="header1">Experience</b><br>
+                <b class="maintext">I have no experience in JS and Front-end development yet.</b> <br>
+                <hr>
+                <b class="header1">Skills</b> <br>
+                <b class="maintext">
+                    <ul>
+                        <li>JavaScript (basic)</li><br>
+                        <li>SQL (basic)</li><br>
+                        <li>HTML (basic)</li> <br>
+                        <li>CSS (basic)</li> <br>
+                    </ul>
+                </b>
+                <hr>
+                <b class="header1">Education</b><br> 
+                <b class="maintext"> 
+                    <ul>
+                        <li>Voronezh State Pedagogical University, the faculty of foreign languages, 2015 </li>
+                        <li>Voronezh State University, mechanics and mathematics faculty, business-informatics, 2024</li>
+                    </ul>
+                </b> <br>
+                <hr>
+                <b class="header1">English</b> <br>
+                <b class="maintext">B2. I use English daily on my work as I work on an international project.</b></p>
+                <hr>
+                <b class="header1">Code example</b><br>
+                <b class="maintext"><i>Complete the solution so that it reverses the string passed into it.</i> </b><br>
+                <div class="code_example2">
+                    <pre><code class="code_example">function solution(str){</code>
+                    <code class="code_example">return str.split("").reverse().join("");</code>      
+                    <code class="code_example">}</code>    
+                    <code class="code_example">solution("world");</code></pre>  
+                </div>
+                  
+                
+                
+            </div>
+        </main>
+        <div id="footer">
+            <aside class="footer_aside">
+                <div class="footer_rsschool">
+                    <a href="https://rs.school/js/" target="_blank">
+                    <img  id="footer_img" src="rs-school logo/rs_school_js.svg" alt="rs_school_js">
+                </a>
+                </div>
+            </aside>
+            <aside class="footer_aside2">
+                <div class="footer_year">
+                    <b>2021</b>
+                </div>
+            </aside>
+                <main class="footer_main">
+                    
+                    <div class="footer_git">
+                        <a href="https://github.com/ElizavetaEvgenyevna" target="_blank">
+                        <img src="git logo/GitHub-Mark-64px.png" alt="GitHub-Mark">
+                    </a>
+                    </div>
+                </main>
         </div>
-        <div id="header" class="text" style="display: inline-block;">
-            <i style="color:#7a0ea5;" align="left"<big><big><b>About me</b></big></big></i>
-        </div>
-    </div>
-    <div id="text" class="boxed" align="center">
-    <p id="cv">
-    <b>Name:</b> Elizaveta Fomenko<br>
-    <b>Contact details:</b> <a href="mailto:fomenko.elizaveta357@gmail.com">fomenko.elizaveta357@gmail.com</a>/ <a href="tel: 89155418921">89155418921</a> <br>
-    <b>My goal</b> is to become a junior JavaScript developer. <br> 
-    <b>Experience:</b> I have no experience but I am eager to learn. <br>
-    <b>Skills:</b> Basic JavaScript knowledge, basic SQL.<br>
-    <b>Education:</b> CodeBasics course, Stepik. Starting to study on a business-informatics faculty in Voronezh State University. <br>
-    <b>English level:</b> B2. I have to use English language daily on my work as I work on an international project.</p>
-    </div>
-    
+    </div> 
 </body>
 </html>
