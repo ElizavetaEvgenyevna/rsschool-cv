@@ -99,6 +99,9 @@ ul {
 li {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .nv_text_format {
   font-family: Roboto;
   font-style: normal;
@@ -159,8 +162,8 @@ li {
   height: 8px;
   right: 124px;
   bottom: 56px;
-
-  background: #ffffff;
+  content: url(assets/svg/left_arrow.svg);
+  /* background: #ffffff; */
   background-size: contain;
   background-image: url('assets/svg/left_arrow.svg');
 }
@@ -170,8 +173,8 @@ li {
   height: 8px;
   right: 74px;
   bottom: 56px;
-
-  background: #ffffff;
+  content: url(assets/svg/right_arrow\\(1\).svg);
+  /* background: #ffffff; */
   /* transform: rotate(-180deg); */
   background-size: contain;
   background-image: url('assets/svg/right_arrow\ \(1\).svg');
