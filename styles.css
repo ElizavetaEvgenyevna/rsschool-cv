@@ -5,6 +5,9 @@
   --font1: 80px;
   --font2: 32px;
 }
+html {
+  scroll-behavior: smooth;
+}
 .section {
   /* border: 1px solid red; */
   padding-top: 0px;
