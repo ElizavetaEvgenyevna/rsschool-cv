@@ -1504,10 +1504,11 @@ main {
   left: -277px;
   right: -277px;
   top: 7450px;
-
-  background: url(assets/img/parallax.png);
-  background-size: contain;
-  border-radius: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(assets/img/parallax.jpg);
+  background-size: cover;
 }
 #contacts {
   position: absolute;
@@ -1583,6 +1584,8 @@ main {
   left: 0px;
   top: 360px;
 
+  text-decoration: none;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -1601,6 +1604,8 @@ main {
   height: 26px;
   left: 0px;
   top: 411px;
+
+  text-decoration: none;
 
   font-family: Roboto;
   font-style: normal;
