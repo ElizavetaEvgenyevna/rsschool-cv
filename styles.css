@@ -1717,7 +1717,7 @@ main {
   height: 26px;
   left: 0px;
   top: 0px;
-
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
@@ -1735,7 +1735,7 @@ main {
   height: 26px;
   left: 0px;
   top: 51px;
-
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
@@ -1753,7 +1753,7 @@ main {
   height: 26px;
   left: 0px;
   bottom: 0px;
-
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
@@ -1771,7 +1771,7 @@ main {
   height: 26px;
   left: 257px;
   top: 0px;
-
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
@@ -1789,7 +1789,7 @@ main {
   height: 26px;
   left: 257px;
   top: 51px;
-
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
@@ -1807,7 +1807,7 @@ main {
   height: 26px;
   right: 0px;
   bottom: 0px;
-
+  text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 200;
