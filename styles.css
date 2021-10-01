@@ -5,10 +5,16 @@
   --font1: 80px;
   --font2: 32px;
 }
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
 html {
   scroll-behavior: smooth;
 }
-.section {
+section {
   /* border: 1px solid red; */
   padding-top: 0px;
   padding-bottom: 0px;
@@ -22,7 +28,7 @@ html {
 }
 .header {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 150px;
   left: 240px;
   top: 0px;
@@ -30,12 +36,10 @@ html {
 }
 .container {
   margin: 0 auto;
-  width: 1440px;
-  height: 150px;
-  left: -240px;
-  top: 0px;
-
-  background: #030303;
+  max-width: 1440px;
+}
+.container_welcome {
+  position: relative;
 }
 .header-container {
   display: flex;
@@ -45,7 +49,7 @@ html {
 }
 #bg {
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 150px;
   left: -240px;
   top: 0px;
@@ -117,20 +121,16 @@ a {
 
   color: #ffffff;
 }
-.monalisa_container {
-  position: absolute;
-  width: 1000px;
-  height: 810px;
-  left: 440px;
-  top: 0px;
+#container_monalisa {
+  height: 750px;
 }
-#monalisa_img {
+#img_monalisa {
   position: absolute;
   width: 1000px;
   height: 750px;
   right: 0px;
   top: 0px;
-
+  background-position: calc(100% - 20px) calc(100% - 10px);
   background: linear-gradient(
       90deg,
       #000000 0%,
@@ -143,14 +143,11 @@ a {
   position: absolute;
   width: 600px;
   height: 120px;
-  left: 400px;
-  top: 690px;
-}
-.welcome_pagination_container {
   right: 0px;
-  bottom: 0px;
+  bottom: -60px;
   background: #030303;
 }
+
 #arrows {
   position: absolute;
   width: 80px;
@@ -159,85 +156,58 @@ a {
   top: 746px;
   /* z-index: -1; */
 }
-.left_arrow {
+.welcome_arrow {
   position: absolute;
   width: 30px;
   height: 8px;
-  right: 124px;
   bottom: 56px;
+  background-size: contain;
+}
+#left {
+  right: 124px;
   content: url(assets/svg/left_arrow.svg);
   /* background: #ffffff; */
-  background-size: contain;
+  
   background-image: url('assets/svg/left_arrow.svg');
 }
-.right_arrow {
-  position: absolute;
-  width: 30px;
-  height: 8px;
+#right {
   right: 74px;
-  bottom: 56px;
   content: url(assets/svg/right_arrow\\(1\).svg);
-  /* background: #ffffff; */
-  /* transform: rotate(-180deg); */
-  background-size: contain;
   background-image: url('assets/svg/right_arrow\ \(1\).svg');
 }
-.white_slider {
+.welcome_slider {
   position: absolute;
   width: 16px;
   height: 16px;
+  background-size: contain;
+}
+.welcome_white_slider {
+  background: #ffffff;
+  background-image: url('assets/svg/white_slider.svg');
+}
+#white_first {
   right: 215px;
   bottom: 52px;
-
-  background: #ffffff;
-  background-size: contain;
-  background-image: url('assets/svg/white_slider.svg');
 }
-.white_slider2 {
-  position: absolute;
-  width: 16px;
-  height: 16px;
+#white_second {
   right: 256px;
   bottom: 52px;
-
-  background: #ffffff;
-  background-size: contain;
-  background-image: url('assets/svg/white_slider.svg');
 }
-.white_slider3 {
-  position: absolute;
-  width: 16px;
-  height: 16px;
+#white_third {
   right: 297px;
   bottom: 52px;
-
-  background: #ffffff;
-  background-size: contain;
-  background-image: url('assets/svg/white_slider.svg');
 }
-.white_slider4 {
-  position: absolute;
-  width: 16px;
-  height: 16px;
+#white_fourth {
   right: 338px;
   bottom: 52px;
-
-  background: #ffffff;
-  background-size: contain;
-  background-image: url('assets/svg/white_slider.svg');
 }
-.beige_slider {
-  position: absolute;
-  width: 16px;
-  height: 16px;
+#beige {
   right: 379px;
   bottom: 52px;
-
   background: #d2b183;
-  background-size: contain;
   background-image: url('assets/svg/slider2.svg');
 }
-.num {
+#slider_num {
   position: absolute;
   width: 76px;
   height: 40px;
@@ -265,14 +235,14 @@ a {
   top: 44px;
   bottom: 36px;
 }
-.welcome_to_louvre {
+#container_welcome_header {
   position: absolute;
   width: 598px;
   height: 388px;
   left: 0px;
   top: 150px;
 }
-.welcome_to_louvre_h {
+#welcome_header {
   position: absolute;
   width: 593px;
   height: 180px;
@@ -291,7 +261,7 @@ a {
 
   color: #ffffff;
 }
-.welcome_to_louvre_p {
+#welcome_p {
   position: absolute;
   width: 445px;
   height: 33px;
@@ -309,7 +279,7 @@ a {
 
   color: #ffffff;
 }
-.discover_button {
+#button_discover {
   position: absolute;
   width: 360px;
   height: 75px;
@@ -319,7 +289,7 @@ a {
   background: #710707;
   border-radius: 10px;
 }
-.discover_button_text {
+#button_discover_text {
   position: absolute;
   width: 232px;
   height: 75px;
@@ -389,9 +359,9 @@ h3 {
 }
 main {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 8717px;
-  left: 240px;
+  /* left: 240px; */
   top: 150px;
 }
 #bg_welcome {
@@ -416,12 +386,10 @@ main {
   color: var(--font-gold);
 }
 
-#welcome {
-  position: absolute;
-  width: 1440px;
+#section_welcome {
+  width: 100%;
   height: 810px;
-  left: 0px;
-  top: 0px;
+  background-color: #000000;
 }
 #visiting {
   position: absolute;
@@ -657,7 +625,7 @@ main {
   width: 660px;
   height: 90px;
   left: 0px;
-  top: 0px;
+  top: 75px;
 
   font-family: Forum;
   font-style: normal;
@@ -677,7 +645,7 @@ main {
   width: 660px;
   height: 3px;
   left: 0px;
-  top: 115px;
+  top: 190px;
 
   background: #710707;
   border-radius: 0px;
@@ -688,7 +656,7 @@ main {
   width: 660px;
   height: 77px;
   left: 0px;
-  top: 193px;
+  top: 268px;
 
   font-family: Roboto;
   font-style: normal;
@@ -704,7 +672,7 @@ main {
   width: 660px;
   height: 77px;
   left: 0px;
-  top: 295px;
+  top: 370px;
 
   font-family: Roboto;
   font-style: normal;
@@ -720,7 +688,7 @@ main {
   width: 660px;
   height: 77px;
   left: 0px;
-  top: 397px;
+  top: 472px;
 
   font-family: Roboto;
   font-style: normal;
@@ -736,7 +704,7 @@ main {
   width: 440px;
   height: 700px;
   left: 720px;
-  top: 15px;
+  top: 90px;
 
   background: url(/assets/img/explore1.png);
   background-size: contain;
@@ -748,7 +716,7 @@ main {
   width: 720px;
   height: 700px;
   left: 720px;
-  top: 15px;
+  top: 90px;
 
   background: url(/assets/img/explore2.png);
   background-size: contain;
@@ -761,7 +729,7 @@ main {
   width: 39px;
   height: 700px;
   left: 1141px;
-  top: 15px;
+  top: 90px;
 
   background: #ffffff;
   background-image: url('assets/img/explore-rectangle.png');
@@ -1018,7 +986,7 @@ main {
   width: 518px;
   height: 90px;
   left: 0px;
-  top: 0px;
+  top: 75px;
 
   font-family: Forum;
   font-style: normal;
@@ -1037,7 +1005,7 @@ main {
   width: 456px;
   height: 570px;
   left: 0px;
-  top: 215px;
+  top: 290px;
 
   background: url(assets/img/gallery-img1.png);
   border-radius: 0px;
@@ -1048,7 +1016,7 @@ main {
   width: 456px;
   height: 456px;
   left: 492px;
-  top: 165px;
+  top: 240px;
 
   background: url(assets/img/gallery-img2.png);
   border-radius: 0px;
@@ -1059,7 +1027,7 @@ main {
   width: 456px;
   height: 570px;
   left: 984px;
-  top: 215px;
+  top: 290px;
 
   background: url(assets/img/gallery-img3.png);
   border-radius: 0px;
@@ -1070,7 +1038,7 @@ main {
   width: 456px;
   height: 570px;
   left: 0px;
-  top: 809px;
+  top: 884px;
 
   background: url(assets/img/gallery-img4.png);
   border-radius: 0px;
@@ -1081,7 +1049,7 @@ main {
   width: 456px;
   height: 570px;
   left: 492px;
-  top: 645px;
+  top: 720px;
 
   background: url(assets/img/gallery-img5.png);
   border-radius: 0px;
@@ -1092,7 +1060,7 @@ main {
   width: 456px;
   height: 456px;
   left: 984px;
-  top: 809px;
+  top: 884px;
 
   background: url(assets/img/gallery-img6.png);
   border-radius: 0px;
@@ -1103,7 +1071,7 @@ main {
   width: 456px;
   height: 456px;
   left: 0px;
-  top: 1403px;
+  top: 1478px;
 
   background: url(assets/img/gallery-img7.png);
   border-radius: 0px;
@@ -1114,7 +1082,7 @@ main {
   width: 456px;
   height: 570px;
   left: 492px;
-  top: 1239px;
+  top: 1314px;
 
   background: url(assets/img/gallery-img8.png);
   border-radius: 0px;
@@ -1125,7 +1093,7 @@ main {
   width: 456px;
   height: 456px;
   left: 984px;
-  top: 1289px;
+  top: 1364px;
 
   background: url(assets/img/gallery-img9.png);
   border-radius: 0px;
@@ -1136,7 +1104,7 @@ main {
   width: 456px;
   height: 242px;
   left: 0px;
-  top: 1883px;
+  top: 1958px;
 
   background: url(assets/img/gallery-img10.png);
   border-radius: 0px;
@@ -1147,7 +1115,7 @@ main {
   width: 456px;
   height: 292px;
   left: 492px;
-  top: 1833px;
+  top: 1908px;
 
   background: url(assets/img/gallery-img11.png);
   border-radius: 0px;
@@ -1158,7 +1126,7 @@ main {
   width: 456px;
   height: 342px;
   left: 984px;
-  top: 1769px;
+  top: 1844px;
 
   background: url(assets/img/gallery-img12.png);
   border-radius: 0px;
@@ -1169,7 +1137,7 @@ main {
   width: 1440px;
   height: 360px;
   left: 0px;
-  top: 1765px;
+  top: 1840px;
 
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
 }

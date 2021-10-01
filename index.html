@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;500;700&display=swap"
+    rel="stylesheet" />
     <title>museum</title>
 </head>
     <body>
@@ -44,27 +48,29 @@
             </div>
         </header>
         <main>
-            <div id="bg_welcome"></div>
-            <section class="section" id="welcome">
-                <div class="container monalisa_container">
-                    <img id="monalisa_img" src="assets/img/monalisa.png" alt="monalisa_img">
-                    <div class="welcome_pagination_container" id="slider_pagination">
-                        <button class="left_arrow"></button>
-                        <button class="right_arrow"></button>
-                        <a href="/assets/svg/white_slider.svg" class="white_slider"></a>
-                        <a href="/assets/svg/white_slider.svg" class="white_slider2"></a>
-                        <a href="/assets/svg/white_slider.svg" class="white_slider3"></a>
-                        <a href="/assets/svg/white_slider.svg" class="white_slider4"></a>
-                        <a href="/assets/svg/slider2.svg" class="beige_slider"></a>
-                        <a href="/assets/svg/num.svg" class="num"></a>
+            <section id="section_welcome">
+                <div class="container container_welcome">
+                    <div id="container_monalisa">
+                        <img id="img_monalisa" src="assets/img/monalisa.png" alt="monalisa">
+                        <div id="slider_pagination">
+                            <button class="welcome_arrow" id="left" ></button>
+                            <button class="welcome_arrow" id="right"></button>
+                            <a class="welcome_slider welcome_white_slider" id="white_first"  href="/assets/svg/white_slider.svg"></a>
+                            <a class="welcome_slider welcome_white_slider" id="white_second" href="/assets/svg/white_slider.svg"></a>
+                            <a class="welcome_slider welcome_white_slider" id="white_third" href="/assets/svg/white_slider.svg"></a>
+                            <a class="welcome_slider welcome_white_slider" id="white_fourth" href="/assets/svg/white_slider.svg"></a>
+                            <a class="welcome_slider" id="beige"  href="/assets/svg/slider2.svg"></a>
+                            <a id="slider_num" href="/assets/svg/num.svg"></a>
+                        </div>
                     </div>
-                </div>
-                <div class="welcome_to_louvre">
-                    <h2 class="welcome_to_louvre_h">WELCOME TO THE LOUVRE</h2>
-                    <p class="welcome_to_louvre_p">From the castle to the museum</p>
-                    <div class="discover_button">
-                        <a href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"
-                        class="discover_button_text">Discover the Louvre</a>
+                    <div id="container_welcome_header">
+                        <h2 id="welcome_header">WELCOME TO THE LOUVRE</h2>
+                        <p id="welcome_p">From the castle to the museum</p>
+                        <div id="button_discover">
+                            <a id="button_discover_text"
+                            href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"
+                            >Discover the Louvre</a>
+                        </div>
                     </div>
                 </div>
             </section>
