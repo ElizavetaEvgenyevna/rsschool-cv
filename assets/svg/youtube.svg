@@ -1,18 +1,16 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="46.000000pt" height="32.000000pt" viewBox="0 0 46.000000 32.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,32.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M1 278 l1 -43 9 32 c7 25 17 35 42 42 l32 9 -42 1 -43 1 1 -42z"/>
-<path d="M392 313 c47 -7 58 -35 58 -153 0 -118 -11 -146 -58 -153 -16 -2 -9
--5 21 -6 l47 -1 0 160 0 160 -47 -1 c-30 -1 -37 -4 -21 -6z"/>
-<path d="M180 164 c0 -35 3 -64 6 -64 10 0 104 55 104 60 0 3 -25 20 -55 37
-l-55 32 0 -65z"/>
-<path d="M1 43 l-1 -43 48 1 c48 1 48 3 0 13 -20 5 -30 15 -37 39 l-9 32 -1
--42z"/>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<rect x="0.5" y="0.5" width="47" height="47" rx="23.5" stroke="#666666"/>
 </g>
+<path d="M22.03 27.38V20.62L27.97 24L22.03 27.38ZM35.23 18.5C35.1026 18.0177 34.8508 17.5773 34.4998 17.2229C34.1488 16.8684 33.711 16.6122 33.23 16.48C31.46 16 24.35 16 24.35 16C24.35 16 17.25 16 15.48 16.48C14.999 16.6122 14.5612 16.8684 14.2102 17.2229C13.8592 17.5773 13.6074 18.0177 13.48 18.5C13 20.28 13 24 13 24C13 24 13 27.72 13.47 29.5C13.5983 29.9835 13.8516 30.4247 14.2044 30.7793C14.5572 31.1338 14.9972 31.3893 15.48 31.52C17.25 32 24.36 32 24.36 32C24.36 32 31.46 32 33.23 31.52C33.711 31.3878 34.1488 31.1316 34.4998 30.7771C34.8508 30.4227 35.1026 29.9823 35.23 29.5C35.71 27.72 35.71 24 35.71 24C35.71 24 35.71 20.28 35.24 18.5H35.23Z" fill="white"/>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="48" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 0 0.4 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
 </svg>
